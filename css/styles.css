@@ -31,13 +31,35 @@ ul {
   margin-right: auto;
 }
 
+.site-nav {
+  display: flex;
 }
+
+.site-nav .item {
+  outline: 1px solid tomato;
+  margin-right: 50px;
+}
+
+.site-nav .item + .item {
+  margin-right: 50px;
+}
+
 /* Links */
 .site-nav .link {
+  display: block;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+}
+
+/* Auth-nav  */
+.auth-nav {
+  display: flex;
+}
+
+.auth-nav .item + .item {
+  margin-left: 32px;
 }
 
 .link:hover,
@@ -138,7 +160,7 @@ ul {
 }
 
 .border-header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 .secondary-title {
@@ -166,7 +188,6 @@ ul {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-
 
 .team-element-title {
   color: var(--title-text-color);
