@@ -25,23 +25,26 @@ ul {
   margin-bottom: 0;
 }
 
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: 1200px;
-  margin-left: auto;
+
   margin-right: auto;
+  margin-left: auto;
 }
 
 .site-nav {
   display: flex;
-}
-
-.site-nav .item {
-  outline: 1px solid tomato;
-  margin-right: 50px;
+  margin-left: 93px;
 }
 
 .site-nav .item + .item {
-  margin-right: 50px;
+  margin-left: 50px;
 }
 
 /* Links */
@@ -56,10 +59,18 @@ ul {
 /* Auth-nav  */
 .auth-nav {
   display: flex;
+  margin-left: auto;
 }
 
 .auth-nav .item + .item {
-  margin-left: 32px;
+  margin-left: 50px;
+}
+
+/* Main nav */
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .link:hover,
@@ -70,10 +81,6 @@ ul {
 .link {
   color: inherit;
   text-decoration: none;
-}
-
-.list {
-  list-style: none;
 }
 
 .link.current {
