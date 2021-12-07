@@ -15,39 +15,38 @@
 
 <body>
     <!--Шапка страницы-->
+    
     <header class="border-header">
         <!--Навигация на другие страницы-->
-        <div class="container">
-            <nav>
-                <a href="#" class="logo link">Web<span class="logo-header">Studio</span></a>
-                <ul class="site-nav list">
-                    <li>
-                        <a href="./index.html" class="link current">Студия</a>
-                    </li>
-                    <li>
-                        <a href="./portfolio.html" class="link">Портфолио</a>
-                    </li>
-                    <li>
-                        <a href="#" class="link">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
+        <nav class="container main-nav">
+            <a href="#" class="logo link">Web<span class="logo-header">Studio</span></a>
+            <ul class="site-nav list">
+                <li class="item">
+                    <a href="./index.html" class="link current">Студия</a>
+                </li>
+                <li class="item">
+                    <a href="./portfolio.html" class="link">Портфолио</a>
+                </li>
+                <li class="item">
+                    <a href="#" class="link">Контакты</a>
+                </li>
+            </ul>
     
-            <ul class="list">
-                <li>
+    
+            <ul class="list auth-nav">
+                <li class="item">
                     <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
                 </li>
-                <li>
+                <li class="item">
                     <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
                 </li>
-        </div>
-        </ul>
-        </div>
+            </ul>
+        </nav>
     </header>
 
 <!--Уникальный контент страницы-->
 <main>
-    <section class="works">
+    <section class="works container">
         <h1 hidden>Наши работы</h1>
         <button type="button" class="button button-filter">Все</button>
         <button type="button" class="button button-filter">Веб-сайты</button>
@@ -108,21 +107,23 @@
 
 <!--Подвал страницы-->
 <footer>
-<a href="#" class="logo link logo-background">Web<span class="logo-footer">Studio</span></a>
-    <address class="address">
-        <ul class="list">
-            <li>
-                <a href="https://goo.gl/maps/5yWBygAn3DSMYk9E9" class="address-map link">г. Киев, бульвар Леси
-                    Украинки, 26</a>
-            </li>
-            <li>
-                <a href="mailto:info@devstudio.com" class="address-contact link">info@devstudio.com</a>
-            </li>
-            <li>
-                <a href="tel:+380961111111" class="address-contact link">+38 096 111 11 11</a>
-            </li>
-        </ul>
-    </address>
+    <div class="container footer-background">
+        <a href="#" class="logo link logo-background">Web<span class="logo-footer">Studio</span></a>
+        <address class="address">
+            <ul class="list">
+                <li>
+                    <a href="https://goo.gl/maps/5yWBygAn3DSMYk9E9" class="address-map">г. Киев, бульвар Леси Украинки,
+                        26</a>
+                </li>
+                <li>
+                    <a href="mailto:info@devstudio.com" class="address-contact">info@devstudio.com</a>
+                </li>
+                <li>
+                    <a href="tel:+380961111111" class="address-contact">+38 096 111 11 11</a>
+                </li>
+            </ul>
+        </address>
+    </div>
 </footer>
 </body>
 
