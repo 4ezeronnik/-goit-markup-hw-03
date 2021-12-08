@@ -73,6 +73,8 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .link:hover,
@@ -297,5 +299,11 @@ ul {
 }
 
 .footer-background {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-section {
   background-color: #2f303a;
 }
