@@ -256,6 +256,10 @@ ul {
   text-align: center;
 }
 
+.team.section {
+  background-color: #f5f4fa;
+}
+
 /* Works Portfolio */
 .works {
   margin-top: 88px;
@@ -273,6 +277,17 @@ ul {
 .works-paragraph {
   font-size: 16px;
   line-height: 1.9;
+}
+
+.work-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 94px;
+}
+
+.work-container .work-item + .work-item {
+  margin-left: 8px;
 }
 
 /* Card set */

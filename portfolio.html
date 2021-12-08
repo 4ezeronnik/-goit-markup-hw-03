@@ -46,13 +46,17 @@
 <!--Уникальный контент страницы-->
 <main>
     <section class="works container">
+        <div class="container">
         <h1 hidden>Наши работы</h1>
-        <button type="button" class="button button-filter">Все</button>
-        <button type="button" class="button button-filter">Веб-сайты</button>
-        <button type="button" class="button button-filter">Приложения</button>
-        <button type="button" class="button button-filter">Дизайн</button>
-        <button type="button" class="button button-filter">Маркетинг</button>
-
+        <ul class="list work-container">
+            <li class="work-item"><button type="button" class="button button-filter">Все</button></li>
+            <li class="work-item"><button type="button" class="button button-filter">Веб-сайты</button></li>
+            <li class="work-item"><button type="button" class="button button-filter">Приложения</button></li>
+            <li class="work-item"><button type="button" class="button button-filter">Дизайн</button></li>
+            <li class="work-item"><button type="button" class="button button-filter">Маркетинг</button></li>
+        </ul>
+        </div>
+     <div class="container">
         <ul class="list card-set">
             <li class="item-card">
                 <img src="./images/img_portfolio1.jpg" alt="Изображение нашего сайта" width="370" height="294">
@@ -100,21 +104,24 @@
                 <p class="works-paragraph">Приложение</p>
             </li>
         </ul>
+        </div>
     </section>
        
 </main>
 
 <!--Подвал страницы-->
-<footer>
+<footer class="footer-section">
     <div class="container footer-background">
-        <a href="#" class="logo link logo-background">Web<span class="logo-footer">Studio</span></a>
         <address class="address">
             <ul class="list">
-                <li>
+                <li class="logo-address-footer">
+                    <a href="#" class="logo link logo-background">Web<span class="logo-footer">Studio</span></a>
+                </li>
+                <li class="address-contact-map">
                     <a href="https://goo.gl/maps/5yWBygAn3DSMYk9E9" class="address-map">г. Киев, бульвар Леси Украинки,
                         26</a>
                 </li>
-                <li>
+                <li class="address-contact-mail">
                     <a href="mailto:info@devstudio.com" class="address-contact">info@devstudio.com</a>
                 </li>
                 <li>
