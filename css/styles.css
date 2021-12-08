@@ -37,6 +37,7 @@ ul {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 15px;
 }
 
 .site-nav {
@@ -167,8 +168,10 @@ ul {
   margin-bottom: 30px;
 }
 
-.hero {
+.hero.section {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 
 .secondary-title {
@@ -182,7 +185,7 @@ ul {
 /* Section specific */
 .section.no-padding {
   padding-top: 0;
-  padding-bottom: 0;
+  padding-bottom: 94px;
 }
 
 .section {
@@ -279,9 +282,6 @@ ul {
   margin-top: 30px;
 }
 
-.card-set .item-card:nth-child(-n + 3) {
-  border: 1px solid black;
-}
 /* Футер */
 .address {
   font-style: normal;
