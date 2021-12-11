@@ -161,6 +161,7 @@ ul {
 
 .border-header {
   border-bottom: 1px solid #ececec;
+  min-height: 80px;
 }
 
 .hero-title {
@@ -174,8 +175,11 @@ ul {
   margin-bottom: 30px;
 }
 
-.hero. {
+.hero.section {
   background-color: #2f303a;
+  min-height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .secondary-title {
@@ -220,6 +224,7 @@ ul {
 
 .specific-element-paragraph {
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.7;
 }
