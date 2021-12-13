@@ -74,7 +74,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 16.82px;
 }
 
 .link:hover,
@@ -161,7 +161,6 @@ ul {
 
 .border-header {
   border-bottom: 1px solid #ececec;
-  height: 80px;
 }
 
 .hero-title {
@@ -177,9 +176,8 @@ ul {
 
 .hero.section {
   background-color: #2f303a;
-  height: 600px;
   padding-top: 200px;
-  padding-bottom: 200px;
+  padding-bottom: 196.43px;
 }
 
 .secondary-title {
