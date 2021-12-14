@@ -73,8 +73,9 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 32px;
-  padding-bottom: 16.82px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  min-height: 80px;
 }
 
 .link:hover,
@@ -171,13 +172,13 @@ ul {
   text-align: center;
   line-height: 1.4;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 26.43px;
 }
 
 .hero.section {
   background-color: #2f303a;
   padding-top: 200px;
-  padding-bottom: 196.43px;
+  padding-bottom: 200px;
 }
 
 .secondary-title {
