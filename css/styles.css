@@ -65,6 +65,14 @@ ul {
 .auth-nav .item + .item {
   margin-left: 50px;
 }
+.auth-nav .link {
+  display: block;
+  font-family: Roboto;
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 2%;
+}
 
 /* Main nav */
 .main-nav {
@@ -109,6 +117,7 @@ ul {
 
 .logo-footer {
   color: var(--primary-white-color);
+  margin-bottom: 20px;
 }
 
 .logo-address-footer {
@@ -372,4 +381,12 @@ ul {
 
 .footer-section {
   background-color: #2f303a;
+}
+.footer-nav .link {
+  display: block;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 2%;
 }
